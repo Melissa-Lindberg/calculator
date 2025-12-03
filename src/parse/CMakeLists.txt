@@ -6,3 +6,8 @@ target_include_directories(parse_lib
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}
 )
+
+target_link_libraries(parse_lib
+    PUBLIC
+        date_structs_lib
+)

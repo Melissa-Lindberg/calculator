@@ -12,4 +12,5 @@ target_link_libraries(runer_lib
         calc_lib
         parse_lib
         print_lib
+        date_structs_lib
 )

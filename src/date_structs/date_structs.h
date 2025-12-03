@@ -1,12 +1,11 @@
 #pragma once
 
-struct BinaryOperation {
+namespace DataStruct {
+struct Settings {
+    bool printHelp;
+    bool hasErrors;
     int num1;
     int num2;
     char operation;
 };
-
-struct UnaryOperation {
-    int num;
-    char operation;
-};
+}  // namespace DataStruct

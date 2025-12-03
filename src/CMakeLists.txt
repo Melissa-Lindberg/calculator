@@ -1,4 +1,4 @@
-set(target main)
+set(target calc)
 
 add_subdirectory(calc)
 add_subdirectory(parse)
@@ -16,6 +16,6 @@ target_link_libraries(${target}
         parse_lib
         print_lib
         runer_lib
-        date_strucrs_lib
+        date_structs_lib
         ${MY_MATH_LIBRARY}
 )
