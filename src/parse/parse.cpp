@@ -30,7 +30,7 @@ bool safe_to_int(const char* s, int& ans)
 
 void parse_3_args(char* argv[], DataStruct::Settings& settings)
 {
-    int num;
+    int num = 0;
 
     if (!safe_to_int(argv[1], num)) {
         settings.hasErrors = true;
@@ -60,7 +60,7 @@ void parse_3_args(char* argv[], DataStruct::Settings& settings)
 
 void parse_2_args(char* argv[], DataStruct::Settings& settings)
 {
-    int num;
+    int num = 0;
 
     if (!safe_to_int(argv[1], num)) {
         settings.hasErrors = true;
