@@ -35,8 +35,8 @@ The compiled binary will be located in the `build` directory.
 
 ## Requirements
 
-* C++17 or later
-* CMake 3.15+
+* C++20 or later
+* CMake 3.14+
 * A C++ compiler supported by your platform (GCC, Clang, MSVC, etc.)
 
 ## License
