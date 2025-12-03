@@ -1,7 +1,7 @@
+#include "parse.h"
+
 #include <climits>
 #include <string>
-
-#include "date_structs.h"
 
 namespace {
 bool safe_to_int(const char* s, int& ans)

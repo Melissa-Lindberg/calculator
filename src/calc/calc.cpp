@@ -1,4 +1,5 @@
-#include "date_structs.h"
+#include "calc.h"
+
 #include "my_math.h"
 
 namespace Сalculation {
